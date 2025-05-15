@@ -1,0 +1,40 @@
+.learning_button {
+    background-color: #2e2764;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.learning_button:hover {
+    transform: scale(1.05);
+    background-color: #60251e;
+}
+
+.learning_button:active {
+    transform: scale(0.95);
+    background-color: #c0392b;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.learning_button {
+    animation: pulse 2s infinite;
+}

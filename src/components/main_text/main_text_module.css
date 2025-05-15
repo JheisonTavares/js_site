@@ -1,0 +1,14 @@
+.main_text {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgba(255, 189, 189, 0.553);
+    width: 100%;
+    max-width: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    line-height: 1.6;
+    font-size: 22px;
+    position: relative;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
