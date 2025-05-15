@@ -13,13 +13,10 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
-    /* espaço entre texto e card */
     padding: 5%;
     flex-wrap: wrap;
-    /* permite empilhar no mobile */
 }
 
 .main-section>* {
     flex: 1 1 45%;
-    /* ambos ocupam 45% do espaço */
 }
