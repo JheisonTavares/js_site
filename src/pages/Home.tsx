@@ -12,6 +12,7 @@ function Home() {
         <div className="main-section">
           <MainText />
           <GlassCard />
+
         </div>
       </main>
     </>
