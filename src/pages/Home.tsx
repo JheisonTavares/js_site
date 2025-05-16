@@ -4,6 +4,7 @@ import Header from '../components/header/header.tsx';
 import { MainText } from '../components/main_text/main_text.tsx';
 import './style.css';
 
+
 function Home() {
   return (
     <>

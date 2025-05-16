@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #0f0f1c;
+  --primary-color: #00ffff;
+  --accent-color: #8a37b9;
+  --text-color: #e0f7ff;
+}
+
+#body-sub-page {
+  background-color: var(--bg-color);
+  height: 100vh;
+  display: flex;
+  background-image: url(../../../public/assets/images/background.jpg);
+  background-size: cover;
+}
+#left-side {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: top;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+#title {
+  width: min-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: left;
+  font-family: Merriweather, sans-serif;
+  font-size: 4.5vw;
+  color: var(--primary-color);
+  backdrop-filter: blur(5px);
+}
+
+.text {
+  flex-direction: column;
+  display: flex;
+  justify-content: left;
+  font-family: Work Sans, sans-serif;
+  font-size: 1.5vw;
+  color: var(--text-color);
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#p-text-box {
+  backdrop-filter: blur(5px);
+  margin-top: 20%;
+  padding-bottom: 10px;
+  font-size: 2vw;
+  border-radius: 20px;
+}
+/*SIDE CHANGE*/
+#right-side {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: top;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+#right-side-top{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: top;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+#image-box-top {
+  width: 40%;
+  height: 100%;
+  background-image: url(../../../public/assets/images/cyber-image.jpg);
+  opacity: 0.2;
+  background-size: cover;
+  z-index: 2;
+  transition: background-size 0.8s linear, opacity 0.8s linear,
+    border-radius 0.8s linear;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#image-box-top:hover {
+  border-radius: 0;
+  opacity: 1;
+  background-size: 0.5;
+}
+#p-image {
+  margin-top: 10%;
+  font-size: xx-large;
+  backdrop-filter: blur(5px);
+  height: min-content;
+  color: white;
+  width: min-content;
+}
+
+#image-box-bottom {
+  margin-left: 50%;
+  width: 40%;
+  height: 40%;
+  background-image: url(../../../public/assets/images/cyber-image.jpg);
+  opacity: 0.2;
+  background-size: cover;
+  z-index: 2;
+  transition: background-size 0.8s linear, opacity 0.8s linear,
+    border-radius 0.8s linear;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#image-box-bottom:hover {
+  border-radius: 0;
+  opacity: 1;
+  background-size: 0.5;
+}
